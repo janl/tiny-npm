@@ -23,13 +23,13 @@ Download all .tgz files for a package:
 Unzip, but not untar all .tgz files for a package
 
 ```
-./tar-tiny.sh
+./tar-tiny.sh package
 ```
 
 Make a dedicated ZFS pool with custom compression settings and copy all unzipped tarballs over
 
 ```
-./zfs-tiny.sh
+./zfs-tiny.sh package
 ```
 
 
